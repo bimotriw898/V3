@@ -1,0 +1,17 @@
+const fs = require('fs')
+
+
+exports.gaboleh = fs.readFileSync('./P1/sticker/anime/ga boleh.webp')
+exports.spam1 = fs.readFileSync('./P1/sticker/anime/bentar dulu.webp')
+exports.spam2 = fs.readFileSync('./P1/sticker/anime/jangan spam.webp')
+exports.istigfar = fs.readFileSync('./P1/sticker/anime/istigfar.webp')
+exports.hanyaadmin = fs.readFileSync('./P1/sticker/anime/hanya admin.webp')
+exports.jadiinadmin = fs.readFileSync('./P1/sticker/anime/jadiin admin.webp')
+exports.ucapsalam = fs.readFileSync('./P1/sticker/anime/ucapsalam.webp')
+exports.samasama = fs.readFileSync('./P1/sticker/anime/sama sama.webp')
+exports.kumsalam = fs.readFileSync('./P1/sticker/anime/salam.webp')
+
+
+
+
+

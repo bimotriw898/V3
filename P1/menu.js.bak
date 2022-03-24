@@ -1,0 +1,582 @@
+const menunya = (prefix) => {
+	return`
+*─❒ 𝐎𝐖𝐍𝐄𝐑  
+
+ダ${prefix}autorespon [ on/off ]
+ダ${prefix}bc
+ダ${prefix}tobc [ reply sticker/audio with caption ]
+ダ${prefix}return [ javascript ]
+ダ${prefix}delchat
+ダ${prefix}mute
+║ ${prefix}unmute
+║ ${prefix}public
+┃ ${prefix}self
+║ ${prefix}spam [ teks|jumlah ]
+┃ ${prefix}demoteall
+║ ${prefix}promoteall
+┃ ${prefix}addcmd [ teks reply stc ]
+║ ${prefix}delcmd [ reply stc ]
+┃ ${prefix}listcmd
+║ ${prefix}spamsw [ teks|jumlah ]
+┃ ${prefix}upswteks [ teks ]
+║ ${prefix}upswlokasi [ teks ]
+┃ ${prefix}upswaudio [ reply audio ]
+║ ${prefix}upswvoice [ reply audio ]
+┃ ${prefix}upswsticker [ reply sticker ]
+║ ${prefix}upswimage [ reply image with caption ]
+┃ ${prefix}upswgif [ reply gif with caption ]
+║ ${prefix}upswvideo [ reply video with caption ]
+┃ ${prefix}shutdown
+║ ${prefix}offline [ alasan ]
+┃ ${prefix}online
+║ ${prefix}exif [ nama|author ]
+┃ ${prefix}setprofile [ reply image ]
+║ ${prefix}setname [ teks ]
+┃ ${prefix}setprefix [ multi/nopref/prefix ]
+║ ${prefix}setbio [ teks ]
+┃ ${prefix}leave
+║ ${prefix}restart
+┃ ${prefix}addrespon [ tanya|jawab ]
+║ ${prefix}delrespon [ nama ]
+┃ ${prefix}listrespon
+║ ${prefix}readall
+┃ ${prefix}unreadall
+║ ${prefix}archive
+┃ ${prefix}unarchiveall
+║ ${prefix}pin
+┃ ${prefix}unpin
+║ ${prefix}setmenu [ ori/simpel ]
+┃ ${prefix}setallmenu [ ori/simpel ]
+║ ${prefix}leavetime [ detik/menit/jam ]
+┃ ${prefix}bukatime [ detik/menit/jam ]
+║ ${prefix}tutuptime [ detik/menit/jam ]
+┃ ${prefix}nano [ nama file ]
+┃
+
+*─❒ 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔  
+║
+┃ ${prefix}getpict [ @tag ]
+║ ${prefix}getname [ reply target ]
+┃ ${prefix}getbio [ reply target ]
+║ ${prefix}promote [ @tag ]
+┃ ${prefix}demote [ @tag ]
+║ ${prefix}antilink [ on/off ]
+┃ ${prefix}antivirtex [ on/off ]
+║ ${prefix}welcome [ on/off ]
+┃ ${prefix}creategrup [ nama|@tag ]
+║ ${prefix}tictactoe [ @tag ]
+┃ ${prefix}delttt
+║ ${prefix}kick
+┃ ${prefix}add
+║ ${prefix}getpp
+┃ ${prefix}getdeskgc
+║ ${prefix}sider [ reply pesan bot ]
+┃ ${prefix}hacked [ teks ]
+║ ${prefix}setnamegc [ teks ]
+┃ ${prefix}setdeskgc [ teks ]
+║ ${prefix}fitnah [ @tag|teks1|teks2 ]
+┃ ${prefix}kontak [ @tag|nama ]
+║ ${prefix}kontag [ @tag|nama ]
+┃ ${prefix}opengc
+║ ${prefix}closegc
+┃ ${prefix}resetlinkgc
+║ ${prefix}linkgrup
+┃ ${prefix}hidetag [ teks ]
+║ ${prefix}tagall
+┃ ${prefix}sticktag [ nama sticker ]
+║ ${prefix}totag [ reply media ]        
+┃
+
+*─❒ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃  
+║
+┃ ${prefix}wallml
+║ ${prefix}pinterest
+┃ ${prefix}herolist
+║ ${prefix}herodetail [ hero ]
+┃ ${prefix}google [ search ]
+║ ${prefix}gimage [ search ]
+┃ ${prefix}wiki [ _search_ ]
+║ ${prefix}mediafire [ link ]
+┃ ${prefix}ytsearch [ judul ]
+║ ${prefix}ytmp4 [ link yt ]
+┃ ${prefix}ytmp3 [ link yt ]
+║ ${prefix}play [ judul lagu ]
+┃ ${prefix}video [ judul video ]
+║ ${prefix}tinyurl [ link ]
+┃ ${prefix}fetch [ link ]
+║ ${prefix}igdl [ link ]
+┃ ${prefix}tiktokdl [ link ]
+║ ${prefix}pinterest [ search ]
+┃ ${prefix}lirik [ judul ]
+║ ${prefix}tourl [ reply image/video ]
+┃ ${prefix}kalkulator [ angka ]
+║ ${prefix}translate [ teks kodebhs ]
+┃ ${prefix}ss [ link ]
+║ ${prefix}playstore [ search ]
+┃ ${prefix}tiktokaudio [ link ]
+║ ${prefix}brainly [ search ]
+┃ ${prefix}igstory [ search ]
+║ ${prefix}igstalk [ link ]
+┃ ${prefix}twitter [ link ]
+║ ${prefix}twmp3 [ link ]
+┃ ${prefix}linkwa [ search ]
+║ ${prefix}chara [ search ]
+┃ ${prefix}otaku [ search ]
+║ ${prefix}komiku [ search ]        
+┃
+
+*─❒ 𝐅𝐔𝐍 𝐌𝐄𝐍𝐔  
+║
+┃ ${prefix}popo
+║ ${prefix}bego
+┃ ${prefix}tolol
+║ ${prefix}pinter
+┃ ${prefix}pintar
+║ ${prefix}asu
+┃ ${prefix}bodoh
+║ ${prefix}gay
+┃ ${prefix}lesby
+║ ${prefix}bajingan
+┃ ${prefix}jancok
+║ ${prefix}anjing
+┃ ${prefix}ngentod
+║ ${prefix}ngentot
+┃ ${prefix}monyet
+║ ${prefix}mastah
+┃ ${prefix}newbie
+║ ${prefix}bangsat
+┃ ${prefix}bangke
+║ ${prefix}sange
+┃ ${prefix}sangean
+║ ${prefix}dakjal
+┃ ${prefix}horny
+║ ${prefix}wibu
+┃ ${prefix}puki
+║ ${prefix}pantex
+┃
+
+*─❒ 𝐌𝐀𝐊𝐄𝐑 𝐌𝐄𝐍𝐔  
+║
+┃ ${prefix}terbaikmaker [ teks/teks2 ]
+║ ${prefix}bengekmaker [ teks/teks2 ]
+┃ ${prefix}memekertas [ teksnya ]
+║ ${prefix}blackpink [ teksnya ]
+┃ ${prefix}neon [ teksnya ]
+║ ${prefix}greenneon [ teksnya ]
+┃ ${prefix}advanceglow [ teksnya ]
+║ ${prefix}futureneon [ teksnya ]
+┃ ${prefix}sandwriting [ teksnya ]
+║ ${prefix}sandsummer [ teksnya ]
+┃ ${prefix}sandengraved [ teksnya ]
+║ ${prefix}metaldark [ teksnya ]
+┃ ${prefix}neonlight [ teksnya ]
+║ ${prefix}holographic [ teksnya ]
+┃ ${prefix}text1917 [ teksnya ]
+║ ${prefix}minion [ teksnya ]
+┃ ${prefix}deluxesilver [ teksnya ]
+║ ${prefix}newyearcard [ teksnya ]
+┃ ${prefix}bloodfrosted [ teksnya ]
+║ ${prefix}halloween [ teksnya ]
+┃ ${prefix}jokerlogo [ teksnya ]
+║ ${prefix}fireworksparkle [ teksnya ]
+┃ ${prefix}natureleaves [ teksnya ]
+║ ${prefix}bokeh [ teksnya ]
+┃ ${prefix}toxic [ teksnya ]
+║ ${prefix}strawberry [ teksnya ]
+┃ ${prefix}box3d [ teksnya ]
+║ ${prefix}roadwarning [ teksnya ]
+┃ ${prefix}breakwall [ teksnya ]
+║ ${prefix}icecold [ teksnya ]
+┃ ${prefix}luxury [ teksnya ]
+║ ${prefix}cloud [ teksnya ]
+┃ ${prefix}summersand [ teksnya ]
+║ ${prefix}horrorblood [ teksnya ]
+┃ ${prefix}thunder [ teksnya ]
+║ ${prefix}pornhub [ teksnya ]
+┃ ${prefix}glitch [ teksnya ]
+║ ${prefix}avenger [ teksnya ]
+┃ ${prefix}space [ teksnya ]
+║ ${prefix}ninjalogo [ teksnya ]
+┃ ${prefix}marvelstudio [ teksnya ]
+║ ${prefix}lionlogo [ teksnya ]
+┃ ${prefix}wolflogo [ teksnya ]
+║ ${prefix}steel3d [ teksnya ]
+┃ ${prefix}wallgravity [ teksnya ]
+║ ${prefix}shadow [ teksnya ]
+┃ ${prefix}cup [ teksnya ]
+║ ${prefix}cup1 [ teksnya ]
+┃ ${prefix}romance [ teksnya ]
+║ ${prefix}smoke [ teksnya ]
+┃ ${prefix}burnpaper [ teksnya ]
+║ ${prefix}lovemessage [ teksnya ]
+┃ ${prefix}undergrass [ teksnya ]
+║ ${prefix}love [ teksnya ]
+┃ ${prefix}coffe [ teksnya ]
+║ ${prefix}woodheart [ teksnya ]
+┃ ${prefix}woodenboard [ teksnya ]
+║ ${prefix}summer3d [ teksnya ]
+┃ ${prefix}wolfmetal [ teksnya ]
+║ ${prefix}nature3d [ teksnya ]
+┃ ${prefix}underwater [ teksnya ]
+║ ${prefix}golderrose [ teksnya ]
+┃ ${prefix}summernature [ teksnya ]
+║ ${prefix}letterleaves [ teksnya ]
+┃ ${prefix}glowingneon [ teksnya ]
+║ ${prefix}fallleaves [ teksnya ]
+┃ ${prefix}flamming [ teksnya ]
+║ ${prefix}harrypotter [ teksnya ]
+┃ ${prefix}carvedwood [ teksnya ]
+║ ${prefix}arcade8bit [ teksnya ]
+┃ ${prefix}battlefield4 [ teksnya ]
+║ ${prefix}pubg [ teksnya ]
+┃ ${prefix}wetglass [ teksnya ]
+║ ${prefix}multicolor3d [ teksnya ]
+┃ ${prefix}watercolor [ teksnya ]
+║ ${prefix}luxurygold [ teksnya ]
+┃ ${prefix}galaxywallpaper [ teksnya ]
+║ ${prefix}lighttext [ teksnya ]
+┃ ${prefix}beautifulflower [ teksnya ]
+║ ${prefix}puppycute [ teksnya ]
+┃ ${prefix}royaltext [ teksnya ]
+║ ${prefix}birthdaycake [ teksnya ]
+║ ${prefix}galaxystyle [ teksnya ]
+┃ ${prefix}hologram3d [ teksnya ]
+║ ${prefix}greenneon [ teksnya ]
+┃ ${prefix}glossychrome [ teksnya ]
+║ ${prefix}greenbush [ teksnya ]
+┃ ${prefix}metallogo [ teksnya ]
+║ ${prefix}noeltext [ teksnya ]
+┃ ${prefix}glittergold [ teksnya ]
+║ ${prefix}textcake [ teksnya ]
+┃ ${prefix}starsnight [ teksnya ]
+║ ${prefix}wooden3d [ teksnya ]
+┃ ${prefix}textbyname [ teksnya ]
+║ ${prefix}writegalacy [ teksnya ]
+┃ ${prefix}galaxybat [ teksnya ] 
+║ ${prefix}snow3d [ teksnya ]
+┃ ${prefix}birthdayday [ teksnya ]
+║ ${prefix}goldplaybutton [ teksnya ]
+┃ ${prefix}silverplaybutton [ teksnya ]
+║ ${prefix}freefire [ teksnya ]
+┃ ${prefix}shadow [ teksnya ]
+║
+
+*─❒ 𝐓𝐎𝐎𝐋𝐒 𝐌𝐄𝐍𝐔 
+║
+┃ ${prefix}nulis teksnya
+║ ${prefix}sticker
+┃ ${prefix}stickertelegram [ NAMA STICKER ]
+║ ${prefix}stickerwm [ nama|author ]
+┃ ${prefix}dadu
+║ ${prefix}semoji [ emoji ]
+┃ ${prefix}attp [ teks ]
+║ ${prefix}ttp [ teks ]
+┃ ${prefix}ttp2 [ teks ]
+║ ${prefix}ttp3 [ teks ]
+┃ ${prefix}ttp4 [ teks ]
+║ ${prefix}toimg
+┃ ${prefix}togif [ reply sticker gif ]
+┃ ${prefix}robot [ reply audio ]
+║ ${prefix}balik [ reply audio ]
+┃ ${prefix}bass [ reply audio ]
+║ ${prefix}gemuk [ reply audio ]
+┃ ${prefix}detikvn [ reply audio caption angka ]
+║ ${prefix}detikvideo [ reply video caption angka ] 
+┃
+
+*─❒ 𝐖𝐈𝐁𝐔 𝐌𝐄𝐍𝐔  
+║
+║ ${prefix}zoro
+┃ ${prefix}luffy
+║ ${prefix}sanji
+┃ ${prefix}ussop
+║ ${prefix}nami
+┃ ${prefix}copper
+║ ${prefix}naruto
+┃ ${prefix}minato 
+║ ${prefix}sasuke 
+┃ ${prefix}sakura
+║ ${prefix}boruto
+┃ ${prefix}sarada 
+║ ${prefix}mitsuki 
+┃ ${prefix}orochimaru 
+║ ${prefix}tsunade
+┃ ${prefix}kakashi 
+║ ${prefix}killua
+┃ ${prefix}gon 
+║ ${prefix}saitama
+┃ ${prefix}rimuru 
+║ ${prefix}natsu 
+┃ ${prefix}tanjirou
+║ ${prefix}nezuko 
+┃ ${prefix}senku   
+║ ${prefix}loli
+┃ ${prefix}husbu
+║ ${prefix}milf
+┃ ${prefix}cosplay  
+║
+
+*─❒ 𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔  
+║
+┃ ${prefix}cogan
+║ ${prefix}cecan
+┃ ${prefix}meme
+║ ${prefix}darkjoke
+┃ ${prefix}memeindo
+║ ${prefix}asupan
+┃ ${prefix}quotes
+║ ${prefix}rate
+┃ ${prefix}kapankah
+║ ${prefix}apakah
+┃ ${prefix}bisakah
+║ ${prefix}caripesan [ teks|jumlah ]
+┃ ${prefix}slots
+║ ${prefix}suit [ gunting/batu/kertas ]
+┃ ${prefix}tag [ nomor ]
+║ ${prefix}tagme
+┃ ${prefix}tts [ kodebhs teks ]
+║ ${prefix}readmore [ teks1|teks2 ]
+┃ ${prefix}fitnahpc [ nomor|teks1|teks2 ]
+║ ${prefix}chat [ nomor|teks ]
+┃ ${prefix}fdeface [ replyimg link|teks1|teks2 ]
+║ ${prefix}listgrup
+┃ ${prefix}baileys [ reply message ]
+║ ${prefix}q [ reply message ]
+┃ ${prefix}getcaption [ reply message ]
+║ ${prefix}tospam [ reply audio/sticker/image|jumlah ]
+┃ ${prefix}sharelock [ teks1|teks2 ]
+║
+
+*─❒ 𝐉𝐀𝐃𝐈 𝐁𝐎𝐓   
+║
+┃ ${prefix}jadibot
+║ ${prefix}stopjadibot
+┃
+
+*─❒ 𝐒𝐎𝐔𝐍𝐃 𝐌𝐄𝐍𝐔  
+║
+┃ ${prefix}sound1
+║ ${prefix}sound2
+┃ ${prefix}sound3
+║ ${prefix}sound4
+┃ ${prefix}sound5
+║ ${prefix}sound6
+┃ ${prefix}sound7
+║ ${prefix}sound8
+┃ ${prefix}sound9
+║ ${prefix}sound10
+┃ ${prefix}sound11
+║ ${prefix}sound12
+┃ ${prefix}sound13
+║ ${prefix}sound14
+┃ ${prefix}sound15
+║ ${prefix}sound16
+┃ ${prefix}sound17
+║ ${prefix}sound18
+┃ ${prefix}sound19
+║ ${prefix}sound20
+┃ ${prefix}sound21
+║ ${prefix}sound22
+┃ ${prefix}sound23
+║ ${prefix}sound24
+┃ ${prefix}sound25
+║ ${prefix}sound26     
+┃ ${prefix}sound27
+║ ${prefix}sound28
+┃ ${prefix}sound29
+║ ${prefix}sound30
+┃ ${prefix}sound31
+║ ${prefix}sound32
+┃ ${prefix}sound33
+║ ${prefix}sound34
+┃ ${prefix}sound35
+║ ${prefix}sound36
+┃ ${prefix}sound37
+║ ${prefix}sound38
+┃ ${prefix}sound39
+║ ${prefix}sound40
+┃ ${prefix}sound41
+║ ${prefix}sound42
+┃ ${prefix}sound43
+║ ${prefix}sound44
+┃ ${prefix}sound45
+║ ${prefix}sound46
+┃ ${prefix}sound47
+║ ${prefix}sound48
+┃ ${prefix}sound49
+║ ${prefix}sound50
+┃ ${prefix}sound51
+║ ${prefix}sound52
+┃ ${prefix}sound53
+║ ${prefix}sound54
+┃ ${prefix}sound55
+║ ${prefix}sound56
+┃ ${prefix}sound57
+║ ${prefix}sound58
+┃ ${prefix}sound59
+║ ${prefix}sound60
+┃ ${prefix}sound61
+║ ${prefix}sound62
+┃ ${prefix}sound63
+║ ${prefix}sound64
+┃ ${prefix}sound65
+║ ${prefix}sound66
+┃ ${prefix}sound67
+║ ${prefix}sound68
+┃ ${prefix}sound69
+║ ${prefix}sound70
+┃ ${prefix}sound71
+║ ${prefix}sound72
+┃ ${prefix}sound73
+║ ${prefix}sound74
+┃ ${prefix}sound75
+║ ${prefix}sound76
+┃ ${prefix}sound77
+║ ${prefix}sound78
+┃ ${prefix}sound79
+║ ${prefix}sound80
+┃ ${prefix}sound81
+║ ${prefix}sound82
+┃ ${prefix}sound83
+║ ${prefix}sound84
+┃ ${prefix}sound85
+║ ${prefix}sound86
+┃ ${prefix}sound87
+║ ${prefix}sound88
+┃ ${prefix}sound89
+║ ${prefix}sound90
+┃ ${prefix}sound91
+║ ${prefix}sound92
+┃ ${prefix}sound93
+║ ${prefix}sound94
+┃ ${prefix}sound95
+║ ${prefix}sound96
+┃ ${prefix}sound97
+║ ${prefix}sound98
+┃ ${prefix}sound99
+║ ${prefix}sound100
+
+
+*─❒ 𝐒𝐓𝐎𝐑𝐀𝐆𝐄 𝐌𝐄𝐍𝐔  
+║
+┃ ${prefix}listimage
+║ ${prefix}liststicker
+┃ ${prefix}listvn
+║ ${prefix}addsticker [ nama ]
+┃ ${prefix}delsticker [ nama ]
+║ ${prefix}addvn [ nama ]
+┃ ${prefix}delvn [ nama ]
+║ ${prefix}addimage [ nama ]
+┃ ${prefix}delimage [ nama ]  
+║
+
+*─❒ 𝐆𝐀𝐌𝐄 𝐌𝐄𝐍𝐔  
+║
+┃ ${prefix}tebakgambar
+║ ${prefix}caklontong 
+┃
+
+*─❒ 𝐇𝐀𝐑𝐀𝐌 𝐌𝐄𝐍𝐔 
+║
+┃ ${prefix}bokep
+║ ${prefix}neko
+┃ ${prefix}kanna
+║ ${prefix}sagiri
+┃ ${prefix}megumin
+║ ${prefix}wallnime
+┃ ${prefix}ass
+║ ${prefix}ahegao
+┃ ${prefix}hentai
+║ ${prefix}yuri
+┃ ${prefix}panties
+║ ${prefix}neko
+┃ ${prefix}chiisaihentai
+║ ${prefix}trap
+┃ ${prefix}blowjob
+║ ${prefix}yaoi
+┃ ${prefix}ecchi
+║ ${prefix}ahegao
+┃ ${prefix}hololewd
+║ ${prefix}sideoppai
+┃ ${prefix}animefeets
+║ ${prefix}animebooty
+┃ ${prefix}animethighss
+║ ${prefix}hentaiparadise
+┃ ${prefix}animearmpits
+║ ${prefix}hentaifemdom
+┃ ${prefix}lewdanimegirls
+║ ${prefix}biganimetiddies
+┃ ${prefix}animebellybutton
+║ ${prefix}hentai4everyone
+┃ ${prefix}bj
+║ ${prefix}ero
+┃ ${prefix}cum
+║ ${prefix}feet
+┃ ${prefix}yuri
+║ ${prefix}trap
+┃ ${prefix}lewd
+║ ${prefix}feed
+┃ ${prefix}eron
+║ ${prefix}solo
+┃ ${prefix}gasm
+║ ${prefix}poke
+┃ ${prefix}anal
+║ ${prefix}holo
+┃ ${prefix}tits
+║ ${prefix}kuni
+┃ ${prefix}kiss
+║ ${prefix}erok
+┃ ${prefix}smug
+║ ${prefix}baka
+┃ ${prefix}solog
+║ ${prefix}feetg
+┃ ${prefix}lewdk
+║ ${prefix}waifu
+┃ ${prefix}pussy
+║ ${prefix}femdom
+┃ ${prefix}cuddle
+║ ${prefix}eroyuri
+┃ ${prefix}cum [ jpg ]
+║ ${prefix}blowjob
+┃ ${prefix}erofeet
+║ ${prefix}holoero
+┃ ${prefix}classic
+║ ${prefix}erokemo
+┃ ${prefix}fox [ girl ]
+║ ${prefix}futanari
+┃ ${prefix}lewdkemo
+║ ${prefix}wallpaper
+┃ ${prefix}kemonomimi
+┃ ${prefix}nsfw [ avatar ]  
+║
+
+*─❒ 𝐒𝐈𝐌𝐏𝐄𝐋  
+║
+║ ${prefix}ownermenu            
+┃ ${prefix}groupmenu
+║ ${prefix}funmenu
+┃ ${prefix}soundmenu
+║ ${prefix}downloadmenu
+┃ ${prefix}makermenu
+║ ${prefix}storagemenu
+┃ ${prefix}toolsmenu
+║ ${prefix}wibumenu
+┃ ${prefix}harammenu
+║ ${prefix}gamemenu
+┃ ${prefix}othermenu
+┃
+
+*─❒ 𝐋𝐀𝐈𝐍𝐍𝐘𝐀  
+║
+┃ ${prefix}info
+║ ${prefix}store
+┃ ${prefix}owner
+║ ${prefix}runtime
+┃ ${prefix}speed
+║ ${prefix}sc
+┃ ${prefix}grup [ GRUP OFFICIAL BOT ]
+║
+
+`
+}
+exports.menunya = menunya
