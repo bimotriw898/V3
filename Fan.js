@@ -6835,7 +6835,9 @@ var nn = body.slice(9)
                         break
             case 'hidetag':
             case 'h':
-          if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+          if (!isGroup) return reply(mess.only.group)
+					if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+                   if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
             ht = body.slice(9)
                 members_id = []
 				for (let mem of groupMembers) {
