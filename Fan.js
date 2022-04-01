@@ -1398,9 +1398,9 @@ Fan.updatePresence(from, Presence.recording)
 		const isQuotedAudio = type === 'extendedTextMessage' && content.includes('audioMessage')
 		const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
 		if (isCmd && antiSpam.isFiltered(from) && !isGroup) { console.log(color('[SPAM]', 'red'), color(time, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname))
-return reply('😒Sabar Kontol Kasih Jeda 5 Detik Lalu Command')}  
+return reply('Sabar Kasih Jeda 5 Detik Napa Kontol😒')}  
 if (isCmd && antiSpam.isFiltered(from) && isGroup) { console.log(color('[SPAM]', 'red'), color(time, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname), 'in', color(groupName))
-return reply('😒Sabar Kontol Kasih Jeda 5 Detik Lalu Command')}
+return reply('Sabar Kasih Jeda 5 Detik Napa Kontol😒')}
 if (isCmd && !isOwner) antiSpam.addFilter(from)
 		if (!publik) {
 		if (!isOwner && !mek.key.fromMe) return
@@ -4930,9 +4930,9 @@ case 'sc':
 
 Jangan Di Bully Pak Saya Masih Pemula 🗿🚬
 
-WA: https://wa.me/18054105292
-
-https://github.com/Aztecs444/V3`
+TIKTOK GW : https://vt.tiktok.com/ZSe76fh2D
+WA GW     : https://wa.me/18054105292
+NIH SC      :https://github.com/Aztecs444/V3`
 reply(`${sourcecode}`)
 break
 case 'asupan':
