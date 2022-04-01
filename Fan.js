@@ -4926,7 +4926,14 @@ await Fan.sendMessage(from, gifnya, MessageType.video, {mimetype : 'video/mp4', 
 break
 case 'script':
 case 'sc':
-reply('BELI TOD 40k') 
+    sourcecode = `Source code
+
+Jangan Di Bully Pak Saya Masih Pemula 🗿🚬
+
+WA: https://wa.me/18054105292
+
+https://github.com/Aztecs444/V3`
+reply(`${sourcecode}`)
 break
 case 'asupan':
 lahh = await fetchJson(`https://api.lolhuman.xyz/api/asupan?apikey=${lolkey}`)
