@@ -74,8 +74,8 @@ const { getBuffer, getGroupAdmins, getRandom, start, info, success, close } = re
 const client = new WAConnection()
 const { emoji2 } = require('./emoji2')
 const { emoji1 } = require('./emoji1')
-const dtod = "18054105292@s.whatsapp.net"
-const otod = "18054105292@s.whatsapp.net"
+const dtod = "85895873474@s.whatsapp.net"
+const otod = "85895873474@s.whatsapp.net"
 // STICKER WM
 //const exect = require('await-exec')
 //const webp = require('webp-converter')
@@ -139,11 +139,11 @@ bugc = true
 waktuafk = 'Nothing'
 alasanafk = 'Nothing'
 const ownerNumber = settings.ownerNumber
-NamaBot = settings.NamaBot
-NomorOwner = settings.NomorOwner
+NamaBot = settings.bimo botz
+NomorOwner = settings.085895873474
 NomorOwner2 = settings.NomorOwner2
-NamaOwner = settings.NamaOwner
-pulsa = settings.Pulsa
+NamaOwner = settings.BIMO B4U
+pulsa = settings.085895873474
 dana = settings.Dana
 gopay = settings.Gopay
 multi = true
@@ -554,8 +554,8 @@ const fvid = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
-                },
+	 { remoteJid: "" } : 6285895873474-1613049930@g.us) 
+                }
 	 message: { 
                  "videoMessage": { 
                  "title": `${tampilUcapan} ${pushname}`,
@@ -599,7 +599,7 @@ const finv = {
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "6288213840883-1616169743@g.us",
+			"groupJid": "6285895873474-1616169743@g.us",
 			"inviteCode": `${tampilUcapan} ${pushname}`,
 			"groupName": `${tampilUcapan} ${pushname}`, 
             "caption": `${tampilUcapan} ${pushname}`, 
@@ -611,7 +611,7 @@ const finv = {
 const fstick = {
 "key": {
 	  "participant": `0@s.whatsapp.net`,
-      "remoteJid": "6289643739077-1613049930@g.us",
+      "remoteJid": "6285895873474-1613049930@g.us",
       "fromMe": false,
       "id": "3B64558B07848BD81108C1D14712018E"
     },
@@ -636,7 +636,7 @@ const fgi = {
 	 key: { 
          fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+	 { remoteJid: "6285895873474-1613049930@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -654,7 +654,7 @@ const ftex = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+	 { remoteJid: "6285895873474-1613049930@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -669,7 +669,7 @@ const fvoc = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+	 { remoteJid: "6285895873474-1613049930@g.us" } : {}) 
                 },
 	 message: { 
 		"audioMessage": {
@@ -1455,9 +1455,9 @@ Fan.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentione
      case 'menu':
 menu = `Hay Kak ${pushname}🐦
 ┏━➤ *INFO BOT* 
-*┣┃* ✢Creator : 𝐅𝐚𝐧 𝐗7
+*┣┃* ✢Creator : BIMO BOTZ
 *┃┃* ✢Status : ${isOwner ? 'Owner' : 'User'}
-*┃┃* ✢Nama Bot : ${NamaBot}
+*┃┃* ✢Nama Bot : ${NAT BOTZ}
 *┃┃* ✢Prefix : Multi Prefix
 *┃┃* ✢Baterai : ${baterai}%
 *┃┃* ✢Speed : ${latensyi.toFixed(4)} DETIK
@@ -1841,13 +1841,7 @@ case 'allmenu':
 ダ ${prefix}q [ reply message ]
 ダ ${prefix}getcaption [ reply message ]
 ダ ${prefix}tospam [ reply audio/sticker/image|jumlah ]
-ダ ${prefix}sharelock [ teks1|teks2 ]
-
-
-*─❒ 𝐉𝐀𝐃𝐈 𝐁𝐎𝐓*   
-
-ダ ${prefix}jadibot
-ダ ${prefix}stopjadibot
+ダ ${prefix}sharelock [ teks1|teks2
 
 
 *─❒ 𝐒𝐎𝐔𝐍𝐃 𝐌𝐄𝐍𝐔*  
@@ -3905,7 +3899,7 @@ case 'jasasewa':
 ＰＲＩＣＥＬＩＳＴ ＨＡＲＧＡ：
 
  10k : 1 bulan
- 20k : permanen
+ 15k : permanen
 
 
 MINAT KLIK ORDER
@@ -4025,7 +4019,7 @@ const serialUser = createSerial(18)
  * Pengguna:* ${_registered.length}
 └❏
 
-JANGAN LUPA JOIN GC : https://chat.whatsapp.com/K8V89lh8XFDBgkkZxa59tw
+JANGAN LUPA JOIN GC : https://chat.whatsapp.com/Dnc5zcccxxrFs1LJRBbbv7
 *「 Xavhier ゑ 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
@@ -4596,12 +4590,12 @@ break
             case 'grup':
             ini_txt = `*JOIN GC OFFICIAL*
 GC BOT:
-https://chat.whatsapp.com/G6EKdDwxuGn9oesUTTwkVX`
+https://chat.whatsapp.com/Dnc5zcccxxrFs1LJRBbbv7`
 reply(ini_txt)
 break
 		    
-case 'linkwa':
-case 'grupwa':
+case 'linkwa':wa.me/6285895873474
+case 'grupwa':https://chat.whatsapp.com/Dnc5zcccxxrFs1LJRBbbv7
 case 'groupwa':
 case 'gcwa':
 
@@ -4955,8 +4949,8 @@ doni =`*DONATE NYA KAKA*
 ╭─❒ 「 Donasi 」 ──────*
 *│*
 *│*⬡ *Mau donasi apa cuma liat doang?*
-*│*⬡ *PULSA     : 08979185922*
-*│*⬡ *DANA    : 08979185922*
+*│*⬡ *PULSA     : 085895873474*
+*│*⬡ *DANA    :GAK MAU CUMA ALL PAY*
 *│*⬡ *GOPAY    : SCAN DI ATAS AJA*
 *└───────────────────*
 Scan QR di atas bila belum premium`
@@ -4979,8 +4973,8 @@ sendButLocation(from, `${menu}`, "*_© STORE BOTZ ゑ_*", {jpegThumbnail:store1,
 break
         case 'dana':
 menu = `NO DANA:
-0812-2067-0449
-A/N T*****i   
+0858-9587-3474
+A/N B*** S****   
 LALU KLIK TOMBOL DI BAWAH 
 DAN KIRIM BUKTI TF KE KONTAK TERSEBUT
  `
