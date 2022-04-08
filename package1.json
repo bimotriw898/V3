@@ -1,7 +1,7 @@
 {
-  "name": "FanX7",
+  "name": "Bimo real",
   "version": "0.0.1",
-  "description": "IRFAN",
+  "description": "BIMO",
   "main": "node index",
   "directories": {
     "lib": "lib"
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "IRFAN",
+  "author": "BIMO",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.3",
