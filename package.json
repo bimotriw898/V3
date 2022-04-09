@@ -1,9 +1,9 @@
 {
-  "name": "FanX7",
-  "version": "0.0.1",
-  "description": "IRFAN",
+  "nama" : "BIMO B4U
+  "versi" : "0.0.1" ,
+  "deskripsi" : "BIMO ,
   "main": "node index",
-  "directories": {
+  "direktori" : {
     "lib": "lib"
   },
   "scripts": {
@@ -17,8 +17,8 @@
     "whatsapp",
     "bot"
   ],
-  "author": "IRFAN",
-  "license": "ISC",
+  "penulis" : "" BIMO ,
+  "lisensi" : "ISC" ,
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.3",
     "@vitalets/google-translate-api": "^7.0.0",
